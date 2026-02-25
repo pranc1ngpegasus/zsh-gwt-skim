@@ -1,5 +1,5 @@
 function gwt-skim() {
-  local tmux_opts="${SKIM_TMUX_OPTS:-center,40%}"
+  local tmux_opts="${SKIM_TMUX_OPTS:-bottom,40%}"
   local layout="${tmux_opts%%,*}"
   local size_spec=""
   local -a sk_cmd sk_opts

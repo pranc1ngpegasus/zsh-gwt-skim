@@ -6,7 +6,7 @@ Jump into git worktree directory with skim fuzzy finding.
 
 Key binding | Behavior
 --- | ---
-Ctrl-w | Search git worktree with `sk --tmux=${SKIM_TMUX_OPTS:-center,40%}` (falls back to `sk-tmux`)
+Ctrl-w | Search git worktree with `sk --tmux=${SKIM_TMUX_OPTS:-bottom,40%}` (falls back to `sk-tmux`)
 
 ## Customization
 
