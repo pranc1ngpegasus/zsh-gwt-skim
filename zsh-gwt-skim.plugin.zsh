@@ -10,7 +10,7 @@ function gwt-skim() {
 
   if command -v sk >/dev/null 2>&1 && sk --help 2>/dev/null | grep -q -- '--tmux'; then
     sk_cmd=(sk)
-    sk_opts=("--tmux=${tmux_opts}")
+    sk_opts=("--tmux=${tmux_opts}" "--no-height")
   elif command -v sk-tmux >/dev/null 2>&1; then
     sk_cmd=(sk-tmux)
 
